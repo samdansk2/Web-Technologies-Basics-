@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Javascript prompt box</h2>
+<button onclick="myFunction()">go through it</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+  let sam;
+let person = prompt("please enter your name:");
+ if(person=="" || person==null)
+{
+sam="you cancelled the prompt";
+}
+else
+{
+sam="hello"+person+"nice to meet you";
+}
+document.getElementById("demo").innerHTML=sam;
+}
+</script>
+</body>
+</html>
